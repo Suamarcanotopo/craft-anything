@@ -167,3 +167,8 @@ the devlog is a local scratch record; anything others need goes in the PR, `docs
 Own target dir (`CARGO_TARGET_DIR=target/agent-<name>`), own files. Shared files (`engine/src/tools/mod.rs`,
 `engine/src/lib.rs`, workspace `Cargo.toml`) get small surgical edits; re-read right before editing. Write manifests
 atomically (temp file outside `crates/`, then `mv`). If someone else's edit breaks the build, wait and retry.
+
+
+<!-- SIN-PR-STATUS-ML-ADDENDUM-V1 -->
+## Interlock — Mission Lock e PRs
+Antes de pesquisar, planejar, alterar ou relatar progresso, carregar o Mission Lock canônico do projeto e o arquivo MISSION-LOCK-PR-STATUS-ADDENDUM.md da raiz. Reutilizar checkpoints; checar HEAD e estado de PR/CI, lendo só o delta material quando a fonte estiver acessível. Nunca confundir escrita de código, PR, merge, instalação e homologação. Registrar STATUS/PROVA/BLOQUEIOS/PRÓXIMA AÇÃO. Sem acesso confiável, reportar UNKNOWN; não repetir ou prometer trabalho não confirmado.
